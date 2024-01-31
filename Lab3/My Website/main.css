@@ -1,0 +1,83 @@
+body{
+    background-color: red;
+    margin: 0;
+}
+header{
+    background-color: aqua;
+    padding: 4%;
+    text-align: center;
+    font-family: 'Source Code Pro';
+    font-size: 200%;
+    color: blue;
+}
+.nav_bar{
+    background-color: rgb(0, 255, 123);
+    font-family: 'Source Code Pro';
+    text-align: center;
+    padding: 2%;
+}
+.content{
+    font-family: 'Titillium Web';
+    padding: 5%;
+    text-align: right;
+    color: beige;
+    color: beige;
+    font-size: 130%;
+    line-height: 180%;
+}
+#table{
+    border: 10px dotted;
+    font-family: 'Titillium Web';
+    color: beige;
+    padding: 5%;
+    float: right;
+    margin: 5%;
+    font-size: 130%;
+}
+#myimg{
+    width: 20%;
+    float: left;
+    border-radius: 3%;
+    margin: 2%;
+}
+#myimg:hover{
+    width: 10%;
+    float: right;
+    border-radius: 13%;
+    margin: 4%;
+}
+#guitarimg{
+    width: 10%;
+    float: right;
+    border-radius: 3%;
+    margin: 2%;
+}
+#guitarimg:hover{
+    width: 20%;
+    float: right;
+    border-radius: 13%;
+    margin: 4%;
+}
+#hobbies_header{
+    font-family: Honk;
+    font-size: 600%;
+    background-color: purple;
+}
+#booksimg{
+    width: 10%;
+    float: left;
+    border-radius: 3%;
+    margin: 2%;
+}
+#booksimg:hover{
+    width: 20%;
+    float: left;
+    border-radius: 13%;
+    margin: 4%;
+}
+.hobbies_content{
+    color: white;
+    font-family: 'Source Code Pro';
+    font-size: 150%;
+    text-align: center;
+}
