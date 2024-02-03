@@ -16,38 +16,70 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
         <!---->
-        <header>
+        <!--Honk-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+        <!---->
+        <!--Poor Story-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+        <!---->
+        <script src="script.js"></script>
+        <header id="header" class="home_header">
             Welcome to my Personal Website :)
         </header>
-        <div class="nav_bar">
-            <a href="mywebsite.html">Home</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="achievements.html">Achievements</a>
-            <a href="contacts.html">Contacts</a>
-        </div>
-        <img id="myimg" src="Selfie.jpg">
-        <div class="content">
-            I'm a first year student pursing BTech in CSE at IIT Bomabay and am developing my own website here. You can find other pages depicting my hobbies, achievments and contacts through the navigation bar.
-            <br>
-            Here are details about my education
-        </div>
-        <table id="table">
-            <tr>
-                <th>Year</th>
-                <th>Institution</th>
-            </tr>
-            <tr>
-                <td>2009 to 2011</td>
-                <td>Grow-Well Chandkheda</td>
-            </tr>
-            <tr>
-                <td>2011 to 2023</td>
-                <td>Kendriya Vidhyalaya ONGC Chandkheda, Ahmedabad</td>
-            </tr>
-            <tr>
-                <td>2023 to current date</td>
-                <td>Indin Institute of Technology Bombay</td>
-            </tr>
-        </table>
     </head>
+    <div class="nav_bar">
+        <button onclick="show_home()">Home</button>
+        <button onclick="show_hobbies()">Hobbies</button>
+        <a href="achievements.html">Achievements</a>
+        <a href="contacts.html">Contact</a>
+    </div>
+    <body id="body" class="home_body">
+        <!--Home Page-->
+        <div id="home_content">
+            <img id="myimg" src="Images/Selfie.jpg">
+            <div class="content1">
+                I'm a first year student pursing BTech in CSE at IIT Bombay and am developing my own website here. You can find other pages depicting my hobbies, achievments and contacts through the navigation bar.
+                <br><br>
+                Here are details about my education
+            </div>
+            <table id="table">
+                <tr>
+                    <th>Year</th>
+                    <th>Institution</th>
+                </tr>
+                <tr>
+                    <td>2009 to 2011</td>
+                    <td>Grow-Well Chandkheda</td>
+                </tr>
+                <tr>
+                    <td>2011 to 2023</td>
+                    <td>Kendriya Vidhyalaya ONGC Chandkheda, Ahmedabad</td>
+                </tr>
+                <tr>
+                    <td>2023 to current date</td>
+                    <td>Indian Institute of Technology Bombay</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Hide Hobbies Page on opening-->
+        <div id="hobbies_content" style="display: 'none';">
+            <li>
+                Playing Guitar and Learning Music
+                <img id="guitarimg" src="Images/guitar.jpg">
+            </li>
+            <li>
+                Reading Novels, mostly horror right now
+                <img id="booksimg" src="Images/books.png">
+            </li>
+            <li>
+                Chatting on WhatsApp
+                <img id="whatsappimg" src="Images/whatsapp.png">
+            </li>
+        </div>
+    </body>
 </html>
