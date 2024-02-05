@@ -4,9 +4,9 @@
 using namespace std;
 
 int ComputeFactorial(int number) {
-  int fact = 0;
+  int fact = 1;
 
-  for (int j = 1; j < number; j++) {
+  for (int j = 1; j < number+1; j++) {
     fact = fact * j;
   }
 
@@ -17,7 +17,7 @@ double ComputeSeriesValue(double x, int n) {
   double seriesValue = 0.0;
   double xpow = 1;
 
-  for (int k = 0; k <= n; k++) {
+  for (int k = 1; k <= n; k++) {
     seriesValue += xpow / ComputeFactorial(k);
     xpow = xpow * x;
   }
