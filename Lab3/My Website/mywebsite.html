@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>
-            Look below at my site!
+            Hello!
         </title>
-        <link rel="icon" href="abstract-shape.png">
+        <link rel="icon" href="Images/abstract-shape.png">
         <link rel="stylesheet" href="main.css">
-        <!---Links to google fonts-->
+        <!---Links to google fonts--
         <!--Source Code Pro-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,8 +34,8 @@
     <div class="nav_bar">
         <button onclick="show_home()">Home</button>
         <button onclick="show_hobbies()">Hobbies</button>
-        <a href="achievements.html">Achievements</a>
-        <a href="contacts.html">Contact</a>
+        <button onclick="show_achievements()" style="cursor: wait;">Achievements</button>
+        <button onclick="show_contact()" style="cursor: not-allowed;">Contact</button>
     </div>
     <body id="body" class="home_body">
         <!--Home Page-->
@@ -66,7 +66,7 @@
             </table>
         </div>
 
-        <!--Hide Hobbies Page on opening-->
+        <!--Hide Hobbies Page on starting webpage-->
         <div id="hobbies_content" style="display: 'none';">
             <li>
                 Playing Guitar and Learning Music
@@ -80,6 +80,20 @@
                 Chatting on WhatsApp
                 <img id="whatsappimg" src="Images/whatsapp.png">
             </li>
+            <li>
+                Playing Badminton/Squash/Tennis or simply doing exercise at room
+                <img id="squash" src="Images/squash.jpg">
+            </li>
+            <li>
+                Post Dinner Walk ;)
+            </li>
+        </div>
+
+        <!--Hide Hobbies Page on starting webpage-->
+        <div id="achievements_content" style="display: 'none';">
+            Will be Updated...
+            <br>
+            (You can't contact me till then also)
         </div>
     </body>
 </html>
