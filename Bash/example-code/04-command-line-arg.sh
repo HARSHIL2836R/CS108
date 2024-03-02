@@ -16,13 +16,14 @@ echo third:  "$3"
 echo all: "$@"
 echo all: "$*"
 
-
+#ignores double qoutes
 echo "Printing \$* "
 for i in $*
 do
         echo i is: $i
 done
 
+#preserves double quotes
 echo "Printing \$@ "
 for i in "$@"
 do
