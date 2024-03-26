@@ -1,0 +1,11 @@
+,Price,,Money Spent,,
+Apple,100.00,,5000,,"VLOOKUP(lookup_value, table_array, col_index_number,[range_lookup])"
+Banana,30.00,,3000,,
+Orange,80.00,,6000,,
+Pear,200.00,,4000,,
+,,,,,
+,Quantity,,,,
+Apple,50.00,,,,
+Banana,100.00,,,,
+Orange,75.00,,,,
+Pear,20.00,,,,
