@@ -22,3 +22,11 @@ echo "X is $X, Y is $Y"
 
 ./var-demo-child.sh
 
+#Before calling foo, var is 10
+#Inside foo: var is 10
+#Inside foo after local var, var is abc
+#arg1 is x, arg2 is y, arg3 is z Num args is 3
+#After calling foo, var is 10
+#
+#X is hello, Y is 5
+#X is hello, Y is

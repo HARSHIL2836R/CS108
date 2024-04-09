@@ -44,3 +44,20 @@ while [ $X -ge 0 ] ; do
         let X=X-1
         echo $X
 done
+
+#4 is less than 7
+#./03-if-else-for-while.sh: line 11: cd: demo: No such file or directory
+#Please enter your age:
+#18
+#You are a young adult.
+#9
+#8
+#7
+#6
+#5
+#4
+#3
+#2
+#1
+#0
+#-1
