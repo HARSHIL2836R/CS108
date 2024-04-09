@@ -57,3 +57,43 @@ fi
 while read -r line; do
     echo "Line: $line"
 done < "$file"
+
+###Method-1## 
+#
+#hi
+#how
+#are you \?
+#
+#I 
+#am
+#fine.
+#
+###Method-2## 
+#
+#hi
+#how
+#are you \?
+#
+#I 
+#am
+#fine.
+#
+###Method-3## 
+#
+#Line No. 1 : hi
+#Line No. 2 : how
+#Line No. 3 : are you ?
+#Line No. 4 : 
+#Line No. 5 : I
+#Line No. 6 : am
+#Line No. 7 : fine.
+#
+###Method-4## 
+#
+#Line: hi
+#Line: how
+#Line: are you \?
+#Line: 
+#Line: I
+#Line: am
+#Line: fine.
