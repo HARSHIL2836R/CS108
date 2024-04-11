@@ -1,30 +1,30 @@
-#!/usr/bin/bash
+#!usr/bin/bash
 
 # Set the LC_NUMERIC environment variable to use the C locale
 export LC_NUMERIC=C
 
 # Function to remove newline character
-remove_newline() {
-    echo "${1%"${1##*[![:space:]]}"}"
-}
+#remove_newline() {
+#    echo "${1%"${1##*[![:space:]]}"}"
+#}
 
 # Loop through each line in the input CSV file
-while IFS=, read rollno quiz1 quiz2 midsem endsem marks; do
+while IFS=, read -r rollno quiz1 quiz2 midsem endsem marks; do
     echo "Processing $rollno"
     echo "Marks: $marks"
     
     # Remove newline character from marks
-    marks=$(remove_newline "$marks")
-    
+    #marks=$(remove_newline "$marks")
+
     # Assign output files based on roll number prefix
-    if [[ $rollno =~ ^"23" ]]; then
+    if [[ $rollno =~ ^23 ]]; then
         echo "Writing to ug23.csv"
         output_file='ug23.csv'
-    elif [[ $rollno =~ ^"24" ]]; then
+    elif [[ $rollno =~ ^24 ]]; then
         echo "Writing to ug24.csv"
         output_file='ug24.csv'
     else
-        echo "Nothing"
+        echo "Header"
     fi
 
     # Check if the current line is a header
