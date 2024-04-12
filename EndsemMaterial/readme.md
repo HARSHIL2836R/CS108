@@ -1,1 +1,2 @@
-- Install python, matplotlib, numpy, pdflatex
+- Install python, matplotlib, numpy, latexmk
+- submit things and check submissions by explicitly downloading and untaring!!!
