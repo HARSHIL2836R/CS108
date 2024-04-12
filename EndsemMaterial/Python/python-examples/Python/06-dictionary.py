@@ -81,3 +81,21 @@ myfamily = {
 } 
 
 print("14", myfamily)
+
+
+''' 0 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+1 Ford
+2 3
+3 <class 'dict'>
+4 {'brand': 'Ford', 'model': 'Mustang', 'year': 2020}
+5 {'brand': 'Ford', 'model': 'Mustang', 'year': 2024}
+6 Mustang
+7 Mustang
+8 dict_keys(['brand', 'model', 'year'])
+9 dict_values(['Ford', 'Mustang', 2024])
+10 dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 2024)])
+Yes, 'model' is one of the keys in the thisdict dictionary
+11 {'brand': 'Ford', 'model': 'Mustang', 'year': 2024, 'color': 'white', 'gear': 'auto'}
+12 {'brand': 'Ford', 'year': 2024, 'color': 'white'}
+13 {'brand': 'Ford', 'year': 2024, 'color': 'white'}
+14 {'child1': {'name': 'Ravi', 'year': 2004}, 'child2': {'name': 'Rekha', 'year': 2007}, 'child3': {'name': 'Ranjith', 'year': 2011}} '''

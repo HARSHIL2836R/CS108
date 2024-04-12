@@ -30,3 +30,12 @@ print("6", thistuple)
 #can delete tuples
 thistuple = ("apple", "banana", "cherry")
 del thistuple
+
+
+''' 0 ('apple', 'banana', 'cherry', 'apple', 4.5, True, 'cherry')
+1 <class 'tuple'>
+2 7
+3 banana
+4 ('apple', 'banana', 'cherry', 'apple')
+5 ('apple', 'kiwi', 'cherry')
+6 ('apple', 'banana', 'cherry', 'orange') '''

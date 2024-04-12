@@ -38,3 +38,21 @@ price = 49.95
 myorder = "I want {} pieces of item {} for {} dollars."
 print(myorder.format(quantity, itemno, price))
 
+
+
+''' Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.
+o
+123
+rem
+Lorem
+ua.
+iqua
+True
+False
+ HELLO WORLD !!!   
+hello world !!!
+ heiio worid !!!   
+I want 3 pieces of item 567 for 49.95 dollars. '''
