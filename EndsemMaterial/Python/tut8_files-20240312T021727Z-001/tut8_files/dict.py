@@ -51,3 +51,33 @@ print('F' in grades.values())
 
 # Length of a dictionary
 print(len(grades))
+
+''' {}
+{'Ana': 'B', 'John': 'A+', 'Denise': 'A', 'Katy': 'C'}
+<class 'dict'>
+A+
+A+
+{'Ana': 'B', 'John': 'A+', 'Denise': 'A', 'Katy': 'C', 'Sylvan': 'D'}
+{'Ana': 'A', 'John': 'A+', 'Denise': 'A', 'Katy': 'C', 'Sylvan': 'D'}
+{'John': 'A+', 'Denise': 'A', 'Katy': 'C', 'Sylvan': 'D'}
+John A+
+Denise A
+Katy C
+Sylvan D
+John
+Denise
+Katy
+Sylvan
+A+
+A
+C
+D
+John A+
+Denise A
+Katy C
+Sylvan D
+True
+False
+True
+False
+4 '''

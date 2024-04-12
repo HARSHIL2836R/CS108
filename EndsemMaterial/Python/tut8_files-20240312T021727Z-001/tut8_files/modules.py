@@ -39,3 +39,13 @@ print(a)
 
 end = time.time()
 print("Time taken:", end - start, "seconds")
+
+''' The solution of 4x + 3 = 0 is x = -0.75
+The solutions of x**2 - 4x + 3 = 0 are x = (3.0, 1.0)
+8.602325267042627
+8
+1.0
+0.2780645038051087
+1
+b
+Time taken: 3.218650817871094e-05 seconds '''

@@ -88,3 +88,40 @@ print(even)
 # Suppose we want list of squares of all numbers
 squares = [number**2 for number in numbers]
 print(squares)
+
+
+''' [28, 32, 45, 67, 89]
+['apple', 'banana', 'cherry', 'orange']
+[28, 32, True, 'banana', [1, 2]]
+28
+banana
+[1, 2]
+2
+89
+cherry
+5
+orange
+[100, 32, 45, 67, 89]
+['apple', 'mango', 'cherry', 'orange']
+[28, 32, True, 'banana', 'apple']
+[32, 45]
+[32, 45, 67, 89]
+[100, 32, 45]
+[100, 32, 45, 67, 89]
+[45, 67]
+[45, 67, 89]
+[100, 32, 45, 67]
+['apple', 'mango', 'cherry', 'orange', 'mango']
+['apple', 'mango', 'grapes', 'cherry', 'orange', 'mango']
+['apple', 'grapes', 'cherry', 'orange', 'mango']
+['apple', 'grapes', 'cherry', 'orange']
+['apple', 'grapes', 'orange']
+[100, 32, 45, 67, 89]
+[32, 45, 67, 89, 100]
+[100, 89, 67, 45, 32]
+[]
+[1, 2, 4] [4, 5, 6]
+[1, 2, 4, 4, 5, 6] [4, 5, 6]
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[2, 4, 6, 8, 10]
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100] '''

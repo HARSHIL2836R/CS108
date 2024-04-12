@@ -61,3 +61,54 @@ with open("newfile.txt") as f:
   print(f.read())
 print("--------------------------------------------------")
 
+
+
+''' Upcoming Festivals, India:
+13th Jan, Beginning of Jamada-ul-akhirah
+15th Jan, Makar Sankranti
+15th Jan, Pongal
+15th Jan, Indian Army Day
+16th Jan, Marleshwar Yatra Sangameshwar
+17th Jan, Guru Gobind Singh Jayanti
+22nd Jan, Ayodhya Ram Mandir Pran Pratishtha
+23rd Jan, Netaji Subhash Chandra Bose Jayanti
+26th Jan, Republic DayHello World
+--------------------------------------------------
+Upcoming Festivals, India:
+13th Jan, Beginning of Jamada-ul-akhirah
+15th Jan, Makar Sankranti
+15th Jan, Pongal
+15th Jan, Indian Army Day
+16th Jan, Marleshwar Yatra Sangameshwar
+17th Jan, Guru Gobind Singh Jayanti
+22nd Jan, Ayodhya Ram Mandir Pran Pratishtha
+23rd Jan, Netaji Subhash Chandra Bose Jayanti
+26th Jan, Republic DayHello World
+--------------------------------------------------
+Upcoming Festivals, India:
+
+13th Jan, Beginning of Jamada-ul-akhirah
+
+15th Jan, Makar Sankranti
+
+15th Jan, Pongal
+
+15th Jan, Indian Army Day
+
+16th Jan, Marleshwar Yatra Sangameshwar
+
+17th Jan, Guru Gobind Singh Jayanti
+
+22nd Jan, Ayodhya Ram Mandir Pran Pratishtha
+
+23rd Jan, Netaji Subhash Chandra Bose Jayanti
+
+26th Jan, Republic DayHello World
+--------------------------------------------------
+Hello World
+--------------------------------------------------
+IITBombay CSE
+--------------------------------------------------
+IITBombay CSE
+Hello World
+-------------------------------------------------- '''

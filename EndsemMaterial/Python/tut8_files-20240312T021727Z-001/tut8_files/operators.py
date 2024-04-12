@@ -20,3 +20,10 @@ print("a += 5: ", a)
 
 b *= a
 print("b *= a: ", b)
+
+''' Multiplication:  12
+Exponentiation:  81
+Bitwise AND:  0
+Floor Division:  0
+a += 5:  8
+b *= a:  32 '''
