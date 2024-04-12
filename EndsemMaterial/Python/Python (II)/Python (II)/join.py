@@ -23,3 +23,24 @@ print("array h:", h)
 
 i = np.hstack((d, e))
 print("array i:", i)
+'''
+array a: [1 2 3]
+array b: [4 5 6]
+array c: [1 2 3 4 5 6]
+array d: [[1 2]
+ [3 4]]
+array e: [[5 6]
+ [7 8]]
+array f: [[1 2]
+ [3 4]
+ [5 6]
+ [7 8]]
+array g: [[1 2 5 6]
+ [3 4 7 8]]
+array h: [[1 2]
+ [3 4]
+ [5 6]
+ [7 8]]
+array i: [[1 2 5 6]
+ [3 4 7 8]]
+'''

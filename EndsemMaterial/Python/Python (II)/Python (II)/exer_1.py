@@ -23,3 +23,5 @@ if __name__ == '__main__':
     dim = 1000
     py_list(dim)
     np_array(dim)
+''' Python list elapsed time: 199.49684524536133 seconds
+NumPy array elapsed time: 1.341383695602417 seconds '''

@@ -12,7 +12,6 @@ for line in f.readlines():
     marks_dictionary[roll_no]=marks
 f.close()
 
-#Now sorting the dictionary using the sorted() function. You may need to see its syntax on net.
 #This is complex step so see carefully.
 sorted_marksheet=list(sorted(marks_dictionary.items(), key=lambda x: (section(x[0]), -int(x[1]))))
 #print(sorted_marksheet)

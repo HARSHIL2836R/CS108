@@ -18,3 +18,19 @@ print("Dim of e:", e.ndim)
 
 print("Array f:", f)
 print("Dim of f:", f.ndim)
+''' Dim of a: 0
+Dim of b: 1
+Dim of c: 2
+Dim of d: 3
+Array e: [[[[[1 2]
+    [3 4]]]]]
+Dim of e: 5
+Array f: [[[1]
+  [2]]
+
+ [[3]
+  [4]]
+
+ [[5]
+  [6]]]
+Dim of f: 3 '''

@@ -17,3 +17,4 @@ plt.legend()
 plt.show()
 
 plt.savefig('scatter.png')
+'''  '''

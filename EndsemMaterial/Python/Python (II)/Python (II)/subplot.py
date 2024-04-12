@@ -33,3 +33,5 @@ plt.ylabel('Y Axis')
 plt.suptitle('Different types of curves')
 plt.tight_layout()
 plt.show()
+
+'''  '''

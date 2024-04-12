@@ -17,3 +17,4 @@ if __name__ == '__main__':
     list_trials = np.array([10, 100, 1000, 10000])
     for i in range(list_trials.shape[0]):
         plot_hist(toss(list_trials[i]), i+1)
+'''  '''

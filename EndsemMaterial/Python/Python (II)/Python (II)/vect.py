@@ -21,3 +21,12 @@ b = np.array([3, 0, 1, 2])
 
 c = a + b
 print("array c:", c)
+
+
+''' array x: [1, 2, 3, 4]
+array y: [4, 5, 6, 7]
+array z: [5, 7, 9, 11]
+array w: [ 5  7  9 11]
+z type: <class 'list'>
+w type: <class 'numpy.ndarray'>
+array c: [4 2 4 6] '''

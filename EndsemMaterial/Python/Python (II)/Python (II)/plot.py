@@ -6,3 +6,4 @@ y = np.array([2, 14, 10, 16])
 
 plt.plot(x, y)
 plt.show()
+'''  '''
