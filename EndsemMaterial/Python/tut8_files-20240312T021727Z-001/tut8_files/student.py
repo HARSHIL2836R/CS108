@@ -71,3 +71,22 @@ if __name__ == "__main__":
         
 
 
+
+
+''' Rohan, CSE dept.
+Sabya, EE dept.
+Rohit, ME dept.
+Sahil, CE dept.
+-----------------------------------
+Rohan has cpi 9.0
+Sabya has cpi 8.0
+Rohit has cpi 7.0
+Sahil has cpi 10.0
+-----------------------------------
+Sabya has cpi 7.909090909090909
+Sabya is in EE dept.
+-----------------------------------
+Sabya is attempting branch change.
+Congratulations! You successfully branch changed to CHE dept.
+Sabya is in CHE dept.
+----------------------------------- '''

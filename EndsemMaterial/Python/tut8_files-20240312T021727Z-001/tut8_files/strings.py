@@ -26,3 +26,15 @@ new_sentence = sentence.replace("amazing", "awesome")
 print("Original Sentence:", sentence)
 print("Modified Sentence:", new_sentence)
 
+
+
+''' Full Name: John Doe
+My name is John Doe and I am 25 years old.
+Upper Case: PYTHON IS FUN
+Lower Case: python is fun
+Original Message:    Hello, World!   
+Stripped Message: Hello, World!
+Joined Sentence: Python is an amazing programming language
+Words in Sentence: ['Python', 'is', 'an', 'amazing', 'programming', 'language']
+Original Sentence: Python is an amazing programming language
+Modified Sentence: Python is an awesome programming language '''

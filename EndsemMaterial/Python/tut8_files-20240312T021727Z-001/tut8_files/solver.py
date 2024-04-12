@@ -27,3 +27,6 @@ def solve_quadratic(a,b,c):
         print("No real solution")
         return None, None
 
+
+
+'''  '''

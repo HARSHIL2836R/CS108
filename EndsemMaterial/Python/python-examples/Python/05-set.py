@@ -76,3 +76,21 @@ y = {"google", "microsoft", "apple"}
 x.symmetric_difference_update(y)
 print("15", x) 
 
+
+
+''' 0 {True, 'cherry', 'banana', 'apple', 23}
+1 5
+2 <class 'set'>
+3 {True, 'cherry', 'banana', 'apple', 23}
+4 True
+5 {'apple', 'cherry', 'orange', 'banana'}
+6 {'apple', 'papaya', 'cherry', 'mango', 'pineapple', 'banana'}
+7 {'cherry', 'kiwi', 'banana', 'apple', 'orange'}
+8 apple
+9 {'cherry', 'banana'}
+10 {'a', 1, 2, 3, 'b', 'c'}
+11 {'a', 1, 2, 3, 'b', 'c'}
+12 {'apple'}
+13 {'apple'}
+14 {'cherry', 'microsoft', 'banana', 'google'}
+15 {'cherry', 'microsoft', 'banana', 'google'} '''

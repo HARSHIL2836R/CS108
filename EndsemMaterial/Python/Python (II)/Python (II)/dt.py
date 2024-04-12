@@ -27,3 +27,17 @@ print("g dtype:", g.dtype)
 h = g.astype(bool)
 print("array h:", h)
 print("h dtype:", h.dtype)
+''' array a: [1 2 3 4]
+a dtype: int64
+array b: ['apple' 'banana' 'cherry']
+b dtype: <U6
+array c: [b'12' b'21' b'32' b'40']
+c dtype: |S2
+array d: [1. 2. 3. 4.]
+d dtype: float32
+e dtype: float32
+array f: [1 2 3]
+f dtype: int32
+g dtype: int64
+array h: [ True False  True False  True]
+h dtype: bool '''

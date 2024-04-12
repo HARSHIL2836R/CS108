@@ -14,3 +14,7 @@ print("Before running func", var1, var3)
 print("func output", func(2))
 print("After running func", var1, var3)
 # print(var2) # -- error
+
+''' Before running func 20 8
+func output 4
+After running func 20 10 '''

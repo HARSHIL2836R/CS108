@@ -52,3 +52,38 @@ fruits = ["apple", "strawberry", "cherry"]
 for x in adj:
   for y in fruits:
     print(x, y)  
+
+
+''' a is greater than b
+a<b
+At least one of the conditions is True
+1
+2
+3
+apple
+cherry
+0
+1
+2
+3
+4
+5
+2
+5
+8
+11
+14
+17
+20
+23
+26
+29
+red apple
+red strawberry
+red cherry
+big apple
+big strawberry
+big cherry
+tasty apple
+tasty strawberry
+tasty cherry '''

@@ -86,3 +86,24 @@ print("18", thislist)
 thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
 print("19", mylist)
+
+
+''' 0 ['apple', 'banana', 'cherry', 32, 'apple', 6, 2.5]
+1 7
+2 cherry
+3 2.5
+4 [32, 'apple', 6]
+5 ['apple', 'mango', 'watermelon']
+6 ['apple', 'blackcurrant', 'watermelon', 'cherry']
+7 ['apple', 'watermelon']
+8 ['apple', 'banana', 'watermelon', 'cherry', 'orange']
+9 ['apple', 'watermelon', 'cherry']
+10 ['banana', 'cherry']
+11 ['apple', 'banana', 'mango']
+12 ['APPLE', 'BANANA', 'CHERRY', 'KIWI', 'MANGO']
+13 ['a', 'b', 'c', 1, 2, 3]
+14 ['a', 'b', 'c', 1, 2, 3]
+15 ['banana', 'kiwi', 'mango', 'orange', 'pineapple']
+16 ['pineapple', 'orange', 'mango', 'kiwi', 'banana']
+18 ['banana', 'pineapple', 'kiwi', 'mango', 'orange']
+19 ['apple', 'banana', 'cherry'] '''

@@ -82,3 +82,20 @@ print('09','12','2016', sep='-', end='@')
 
 
 
+
+
+''' hello world!
+hello world
+(2+1j)
+<class 'str'>
+<class 'float'>
+Orange  Banana  Cherry 
+Orange Banana Cherry 
+15
+Python is fantastic
+Python is awesome
+Python is fantastic
+Hello, My name is Ravi and I'm 23 years old.
+20.1
+12-12-2022
+09-12-2016@ '''
